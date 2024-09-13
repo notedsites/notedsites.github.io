@@ -1,54 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap');
 
 .navbar {
-	display: flex;
-	position: sticky;
-	top: 0;
-	justify-content: center;
-	align-items: center;
-	padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* Keeps the logo on the left and the nav links centered */
+    align-items: center; /* Vertically centers items in the navbar */
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for the navbar container */
+    margin: 0 auto; /* Center the navbar container within the page */
 }
 
 .logo {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center; /* Vertically center the logo text */
 }
 
 .header {
-	background-color: rgba(223, 210, 208, .35) !important;
-	-webkit-backdrop-filter: blur(6px) !important;
-	backdrop-filter: blur(6px) !important;
-	border-radius: 10px;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	display: flex;
-	justify-content: center;
+    background-color: rgba(223, 210, 208, .35) !important;
+    -webkit-backdrop-filter: blur(6px) !important;
+    backdrop-filter: blur(6px) !important;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center; /* Center the nav links */
+    flex-grow: 1; /* Allow the nav section to grow and take up available space */
 }
 
 .logoText {
-	font-family: "Rubik", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 500;
-	font-style: italic;
-	font-size: 40px;
-	margin: 0;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 40px;
+    margin: 0;
 }
 
 body {
-	padding: 5px;
+    padding: 5px;
 }
 
 .header a {
-	text-decoration: none;
-	color: black;
-	font-family: "Noto Sans", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 400;
-	font-style: normal;
-	font-variation-settings: "wdth" 100;
-	font-size: 20px;
-	margin-left: 15px;
-	margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
