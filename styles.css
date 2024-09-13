@@ -1,1 +1,5 @@
-
+.header {
+	background-color: rgba(223, 210, 208, .35) !important;
+	-webkit-backdrop-filter: blur(6px) !important;
+	backdrop-filter: blur(6px) !important;
+}
